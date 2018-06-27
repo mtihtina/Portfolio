@@ -192,12 +192,73 @@
     </section>
 
     <section id="contact">
+        <section id="contact">
+            <div class="container">
+              <h2 class="text-center section-heading">Contact Me</h2>
+              <hr class="last my-4">
+              <div class="row">
+                <div class="col-12">
+                  <form action="https://formspree.io/mtihtina2020@manchester.edu" method="POST">
+                    <div class="control-group">
+                      <div class="form-group">
+                        <label>Name</label>
+                        <input 
+                          type="text" 
+                          class="form-control" 
+                          placeholder="Your Name" 
+                          id="name" 
+                          required 
+                          data-validation-required-message="Please enter your name"
+                          name="name"
+                          >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <label>Email Address</label>
+                        <input 
+                          type="email" 
+                          class="form-control" 
+                          placeholder="Your Email" 
+                          id="email" 
+                          required 
+                          data-validation-required-message="Please enter your email"
+                          name="_replyto"
+                        >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <textarea 
+                          class="form-control" 
+                          rows="7" 
+                          placeholder="Your Message" 
+                          id="message" 
+                          required 
+                          data-validation-required-message="Please leave a message"
+                          name="message"
+                        ></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-primary btn-xl sr-button" id="sendmessage">
+                        <i aria-hidden="true"></i>
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Get In Touch!</h2>
-            <hr class="last my-4">
-            <p class="mb-5">Please feel free to connect with me on linked in or send me an email!</p>
+            <h2 class="mb-4" id="h25">Please feel free to connect with me on linked in or look at my codes on github!</h2>
           </div>
         </div>
         <div class="row">
@@ -207,15 +268,15 @@
           
           </div>
           <div class="col-lg-4 mr-auto text-center">
-              <i class="fas fa-envelope fa-3x"></i>
-            
+              <i class="fab fa-github fa-3x"></i>
             <p>
-              <a href="mailto:mtihtina2020@manchester.edu">Send an email!</a>
+              <a href="mailto:mtihtina2020@manchester.edu">Look at code on Github!</a>
             </p>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
